@@ -8,6 +8,6 @@ altura = 1.80
 peso = 80
 imc = peso / altura ** 2
 
-linha = f'{nome} tem {altura:.2f} de altura, pesa {peso} kilos e seu IMC vale {imc}' 
+linha = f'{nome} tem {altura:.2f} de altura, pesa {peso} kilos e seu IMC vale {imc:.2f}' 
 
 print (linha)
