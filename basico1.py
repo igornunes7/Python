@@ -1,4 +1,4 @@
-#Completar corretamente com as informações dentro dos print
+#Exercicio: completar corretamente com as informações dentro dos print
 #print('Nome:', nome)
 #print('Sobrenome:', sobrenome)
 #print('Idade:', idade)
