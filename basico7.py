@@ -10,7 +10,7 @@ if (nome.isdigit()):
     print ("Digite apenas letras")
 else:
     tamanhoNome = len(nome)
-    if tamanhoNome == 1:
+    if tamanhoNome <= 1:
         print ("Digite mais letras")
     else:
         if (tamanhoNome <= 4):
