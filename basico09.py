@@ -6,6 +6,7 @@ from random import randint
 from time import sleep
 
 maquina = randint(0 , 50)
+cont = 0
 print ("GERANDO UM NÚMERO ENTRE 0 E 50...")
 print ("-"*40)
 sleep (2.5)
@@ -18,9 +19,12 @@ while True:
     else:
         if numero == maquina:
             print ("Você acertou o número!")
+            print ("Número de tentativas: {}".format(cont))
             break
         else:
             if numero < maquina:
                 print ("Quasee! Tente um número um pouco mais pra cima")
+                cont = cont + 1
             else:
                 print ("Quasee! Tente um número um pouco mais pra baixo")
+                cont = cont + 1
